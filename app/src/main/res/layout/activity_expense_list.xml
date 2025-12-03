@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/expenseListLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activities.ExpenseListActivity">
+
+    <!-- Search bar -->
+    <EditText
+        android:id="@+id/etSearchExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search by title"
+        android:inputType="text"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:padding="8dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- RecyclerView for expense list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvExpenseList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"
+        android:scrollbars="vertical" />
+
+    <!-- Add Expense Floating Action Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginTop="8dp"
+        android:src="@android:drawable/ic_input_add"
+        android:contentDescription="Add Expense"
+        android:tint="@android:color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General padding and margin -->
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+
+    <!-- CardView and component corner radius -->
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_large">12dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_xlarge">24sp</dimen>
+
+    <!-- Button height -->
+    <dimen name="button_height">48dp</dimen>
+
+    <!-- FloatingActionButton size -->
+    <dimen name="fab_size">56dp</dimen>
+
+    <!-- RecyclerView item spacing -->
+    <dimen name="rv_item_spacing">8dp</dimen>
+
+    <!-- CardView elevation -->
+    <dimen name="card_elevation">4dp</dimen>
+
+</resources>

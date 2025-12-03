@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etNote" type="id">etNote</item>
+    <item name="spCategory" type="id">spCategory</item>
+    <item name="btnSave" type="id">btnSave</item>
+    <item name="btnUpdate" type="id">btnUpdate</item>
+    <item name="btnDelete" type="id">btnDelete</item>
+    <item name="tvEmpty" type="id">tvEmpty</item>
+</resources>

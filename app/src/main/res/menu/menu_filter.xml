@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Filter by category -->
+    <item
+        android:id="@+id/action_filter_category"
+        android:title="Filter by Category"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:showAsAction="ifRoom"/>
+
+    <!-- Filter by date -->
+    <item
+        android:id="@+id/action_filter_date"
+        android:title="Filter by Date"
+        android:icon="@android:drawable/ic_menu_today"
+        android:showAsAction="ifRoom"/>
+
+    <!-- Reset filters -->
+    <item
+        android:id="@+id/action_reset_filters"
+        android:title="Reset Filters"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:showAsAction="never"/>
+
+</menu>

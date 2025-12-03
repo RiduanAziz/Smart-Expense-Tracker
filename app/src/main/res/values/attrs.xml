@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom attributes for CategoryPieChart -->
+    <declare-styleable name="CategoryPieChart">
+        <!-- Colors for each category slice -->
+        <attr name="foodColor" format="color" />
+        <attr name="transportColor" format="color" />
+        <attr name="entertainmentColor" format="color" />
+        <attr name="shoppingColor" format="color" />
+        <attr name="billsColor" format="color" />
+        <attr name="healthColor" format="color" />
+        <attr name="educationColor" format="color" />
+        <attr name="travelColor" format="color" />
+        <attr name="othersColor" format="color" />
+
+        <!-- Optional: radius or hole radius -->
+        <attr name="chartHoleRadius" format="dimension" />
+        <attr name="chartTextSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- Custom attributes for buttons -->
+    <declare-styleable name="AppButton">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="bgColor" format="color" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+    <!-- Custom attributes for expense item -->
+    <declare-styleable name="ExpenseItemView">
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="amountTextSize" format="dimension" />
+        <attr name="categoryTextColor" format="color" />
+        <attr name="dateTextColor" format="color" />
+    </declare-styleable>
+
+</resources>
